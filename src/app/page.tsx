@@ -14,6 +14,10 @@ const HomePage = () => {
         <h1 className="px-4 mb-12 text-2xl font-semibold">Categories</h1>
         <CategoryList/>
       </div>
+      <div className="mt-24 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-[13rem]">
+        <h1 className="text-2xl font-semibold">New Products</h1>
+        <ProductList/>
+      </div>
     </div>
   )
 }
